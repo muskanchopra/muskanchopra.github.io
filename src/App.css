@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+  background-color: darkslategray;
+  color: antiquewhite;
+  justify-content: center;
+  font-weight: bolder;
+  line-height: 32px;
+  padding: 10%;
+}
+
+/* body{
+  font-family: 'roboto', sans-serif;
+  background-color: darkslategray;
+  color: antiquewhite;
+  justify-content: center;
+  font-weight: bolder;
+  line-height: 32px;
+  /* letter-spacing: 5px;
+} */
+
+h1{
+  color: rgb(160, 129, 129);
+  font-size: 50px;
+  padding: 70px 1px 0 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* .App {
+  /* text-align: center; */
+  /* width: 80%;
+  margin: auto;
+} */
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  width: 40%;
+  margin-bottom: 40px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: rgb(240, 155, 7);
+  text-align: center;
+}
+
+/* .form button{
+  width: 150px;
+  height: 50px;
+  /* align-self: flex-end; */
+  /*border: none;
+  border-radius: 5px;
+  background-color: rgb(59, 45, 18);
+  margin-left: 28%;
+} */
+.form button{
+  color: #ffa260;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  translate: all 0.255;
+}
+
+.form button:hover{
+  border-color: #f1ff5c;
+  color: rgb(102, 6, 6);
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translatey(-0.25em);
+}
+.delete-button{
+  margin-left: 20px;
+  margin-bottom: 26px;
+}
